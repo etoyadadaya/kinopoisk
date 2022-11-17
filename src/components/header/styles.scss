@@ -1,0 +1,128 @@
+.header {
+  width: 100%;
+  background: transparent;
+  padding: 18px 60px 18px 60px;
+  margin: 0 auto;
+  border-bottom: 0.5px solid rgba(255,255,255, .2);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  position: relative;
+  align-items: center;
+  cursor: pointer;
+  gap: 22px;
+  z-index: 666;
+
+  & .dropdown {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: -50px;
+    left: -25px;
+    height: 350px;
+    width: 260px;
+    background: var(--mine-shaft);
+    border-radius: 12px;
+    transition: opacity 0.3s;
+
+    & .body {
+      display: flex;
+      align-items: center;
+      margin-top: 50px;
+      margin-left: 25px;
+      gap: 20px;
+    }
+
+    &:hover {
+      opacity: 1;
+      pointer-events: all;
+    }
+  }
+
+  &:hover .dropdown {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .dropdownLinks {
+    display: flex;
+    flex-direction: column;
+
+    & .dropdownLink {
+      display: flex;
+      margin-top: 15px;
+      gap: 10px;
+      padding-left: 25px;
+      align-items: center;
+      font-weight: 400;
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 16px;
+      opacity: 0.7;
+      transition: opacity .3s;
+
+      & .cinema {
+        font-weight: 800;
+        opacity: 1;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+
+.search {
+  width: 100%;
+  height: auto;
+}
+
+.links {
+  display: flex;
+  gap: 40px;
+}
+
+.link {
+  color: #fff;
+  font-size: 18px;
+  padding-top: 10px;
+  text-decoration: none;
+  opacity: 0.5;
+  transition: opacity .3s;
+
+  &.active {
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--orange-intense);
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.loginLink {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  opacity: 0.9;
+  transition: opacity .3s;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.login {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
