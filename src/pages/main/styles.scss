@@ -1,5 +1,5 @@
 .wrapper {
-  height: 100vh;
+  min-height: 125vh;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -31,8 +31,6 @@
 }
 
 .onBoardRoot {
-  padding: 100px;
-  width: 100%;
   display: flex;
   gap: 100px;
   flex-direction: column;
@@ -46,30 +44,25 @@
   padding-top: 7.2rem;
   padding-bottom: 0;
   text-align: center;
-  flex: 1 0 auto;
-  flex-flow: column nowrap;
   justify-content: center;
 
-  &.onBoardHeader {
-    width: 86.6rem;
+  & .onBoardHeader {
+    width: 60%;
   }
 }
 
 .textRootH1 {
   color: white;
   font-size: 3.2rem;
-  line-height: 4.2rem;
 }
 
 .textRootH2 {
   font-size: 3.2rem;
-  line-height: 4.2rem;
   color: #868eff;
 }
 
 .textRootP {
   font-size: 1.4rem;
-  line-height: 1.4rem;
   margin-top: 1.6rem;
   font-weight: 400;
   color: hsl(0deg 0% 100% / 70%);
@@ -77,7 +70,7 @@
 
 .logo {
   height: 46px;
-  padding: 0 40% 0 40%;
+  margin: 0 auto;
 }
 
 .onBoardRangeRoot {
@@ -103,7 +96,6 @@
 .buttonWrap {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .button {
@@ -115,7 +107,7 @@
   color: var(--white);
   height: 5.2rem;
   background: radial-gradient(96.72% 187.09% at 0% 100.29%,#ff5c00 5.21%,#ea507c 25.52%,#b941ef 48.44%,#5b61ff 70.83%,#21bee7 93.75%);;
-  transform: scale(1) ;
+  transform: scale(1);
   transition: scale 200ms ease;
 
   &:hover {
@@ -125,15 +117,7 @@
 
 .roll {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-}
-
-.arrowButton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .rollText {
@@ -141,6 +125,9 @@
 }
 
 .content {
+  position: absolute;
   height: 100vh;
   width: 100%;
+  z-index: 999;
+  background: var(--charcoal);
 }

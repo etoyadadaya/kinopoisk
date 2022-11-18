@@ -96,6 +96,7 @@ const Main: FC = () => {
               </div>
             </div>
           </div>
+          <div className={styles.content}></div>
         </>
     );
 };
