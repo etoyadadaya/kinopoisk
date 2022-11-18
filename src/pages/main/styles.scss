@@ -1,0 +1,146 @@
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.filmsCoverRoot {
+  pointer-events: none;
+  opacity: 0.3;
+  height: 100vh;
+  position: absolute;
+  top: -5rem;
+  right: 0;
+  bottom: 0;
+  left: -34rem;
+  transform: translate3d(17rem, 0, 0) rotate(10deg);
+}
+
+.filmsCoverRow {
+  display: flex;
+  gap: 1.6rem;
+  height: 13.2rem;
+  margin: 0 1.6rem 1.6rem 0;
+  transform: translate3d(17rem, 0, 0) rotate(1deg);
+  z-index: 1;
+
+  & .filmsCoverPoster {
+    border-radius: 0.8rem;
+  }
+}
+
+.onBoardRoot {
+  padding: 100px;
+  width: 100%;
+  display: flex;
+  gap: 100px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.onBoardContent {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  padding-top: 7.2rem;
+  padding-bottom: 0;
+  text-align: center;
+  flex: 1 0 auto;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  &.onBoardHeader {
+    width: 86.6rem;
+  }
+}
+
+.textRootH1 {
+  color: white;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+}
+
+.textRootH2 {
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  color: #868eff;
+}
+
+.textRootP {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  margin-top: 1.6rem;
+  font-weight: 400;
+  color: hsl(0deg 0% 100% / 70%);
+}
+
+.logo {
+  height: 46px;
+  padding: 0 40% 0 40%;
+}
+
+.onBoardRangeRoot {
+  display: flex;
+  padding-bottom: 10.6rem;
+}
+
+.rangeColumnOne {
+  width: 60%;
+  padding: 0 0.1rem 0 0;
+}
+
+.rangeColumnTwo {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  height: inherit;
+  min-height: 4.7rem;
+  padding: 0 0 0 0.1rem;
+}
+
+.buttonWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  cursor: pointer;
+  pointer-events: all;
+  border-radius: 12px;
+  padding: 0 4rem;
+  font-size: 1.6rem;
+  color: var(--white);
+  height: 5.2rem;
+  background: radial-gradient(96.72% 187.09% at 0% 100.29%,#ff5c00 5.21%,#ea507c 25.52%,#b941ef 48.44%,#5b61ff 70.83%,#21bee7 93.75%);;
+  transform: scale(1) ;
+  transition: scale 200ms ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.roll {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrowButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rollText {
+  color: hsl(0deg 0% 100% / 60%);
+}
+
+.content {
+  height: 100vh;
+  width: 100%;
+}
