@@ -1,5 +1,5 @@
 .wrapper {
-  min-height: 125vh;
+  min-height: 105vh;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -122,12 +122,11 @@
 
 .rollText {
   color: hsl(0deg 0% 100% / 60%);
+  margin-bottom: 10px;
 }
 
 .content {
-  position: absolute;
   height: 100vh;
   width: 100%;
-  z-index: 999;
   background: var(--charcoal);
 }

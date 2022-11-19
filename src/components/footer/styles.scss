@@ -1,0 +1,110 @@
+.footerRoot {
+  width: 100%;
+  max-width: 100%;
+  color: white;
+}
+
+.footerContent {
+  height: inherit;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+.footerSocialNetworks {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 24px;
+}
+
+.footerSupport {
+  display: flex;
+  gap: 10px;
+  color: #a5a5a5;
+  font-weight: 300;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 24px;
+}
+
+.footerCopyrights {
+  display: flex;
+  font-size: 16px;
+  line-height: 20px;
+  justify-content: space-between;
+  border-top: 1px solid hsl(0deg 0% 100% / 30%);
+}
+
+.footerCopyrightsLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  height: 100%;
+  padding: 20px 0 24px;
+}
+
+.footerCopyrightsRow {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.footerCopyrightsRec {
+  margin-right: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.footerCopyrightsRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerCopyrightsCompanyRec {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.textRoot {
+  display: flex;
+  gap: 15px;
+  font-weight: 300;
+  letter-spacing: 0;
+  color: white;
+  opacity: 0.3;
+}
+
+.textRootButton {
+  display: flex;
+  gap: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0;
+  color: white;
+  margin-bottom: 20px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.linkRoot {
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
+  transition: opacity .3s;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+

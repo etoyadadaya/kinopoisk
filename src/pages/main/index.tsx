@@ -2,6 +2,7 @@ import React, {FC} from "react";
 import Header from "../../components/header";
 
 import styles from "./styles.scss";
+import Footer from "../../components/footer";
 
 const Main: FC = () => {
     return (
@@ -97,6 +98,7 @@ const Main: FC = () => {
             </div>
           </div>
           <div className={styles.content}></div>
+          <Footer/>
         </>
     );
 };
