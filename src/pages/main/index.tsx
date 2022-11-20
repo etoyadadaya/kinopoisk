@@ -98,6 +98,149 @@ const Main: FC = () => {
               </div>
             </div>
           </div>
+          <div className={styles.yaPlusRoot}>
+            <div className={styles.yaPlusHeader}>
+              <h2 className={styles.h2}>Плюс к этому</h2>
+            </div>
+            <div className={styles.yaPlusContent}>
+              <div className={styles.yaPlusLeft}>
+                <div className={styles.yaPlusMusic}>
+                  <div className={styles.yaPlusIcon}>
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className="YaPlusUnitsIcon_YaPlusUnitsIcon-Logo__v5HBI" data-tid="4b364b42">
+                      <path d="M4.8557 2.3586A12.0001 12.0001 0 0 1 10.92.0488v3.621a8.4001 8.4001 0 0 0 1.4743 16.7211 8.4005 8.4005 0 0 0 7.7478-6.3254 8.3998 8.3998 0 0 0 .0972-3.7008L23.28 7.9201l-.002-.0197A12 12 0 1 1 4.8557 2.3586Z" fill="#FCCA00"></path>
+                      <path d="m20.9872 4.048.0127.032-2.032 3.2273a8.4408 8.4408 0 0 0-2.888-2.6517V12c0 2.2533-1.8267 4.08-4.08 4.08-2.2533 0-4.08-1.8267-4.08-4.08 0-2.2533 1.8267-4.08 4.08-4.08a4.061 4.061 0 0 1 2.28.696V.2163c2.6489.5095 4.9879 1.89 6.7073 3.8318Z" fill="#FC3F1D"></path>
+                    </svg>
+                    <svg width="81px" height="24px" viewBox="0 0 81 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className="YaPlusUnitsIcon-Label" data-tid="e2ab1c82">
+                      <path d="M6.364 21.1297h2.7462l3.7496-13.8633v13.8633h3.1424V2.7773h-4.2778L8.0275 16.3766 4.3306 2.7773H0v18.3524h2.6142V7.2664L6.364 21.1297ZM20.3343 25.2227c2.9311 0 4.0137-2.0861 4.9115-4.806l4.1458-12.5694h-3.0367l-2.9311 9.9816-2.9311-9.9816h-3.3008l4.5683 13.8633c-.3433.6338-.845 1.0299-1.7164 1.0299-.5809 0-1.0827-.1849-1.4259-.5282v2.5615s.4753.4489 1.7164.4489ZM33.9669 18.9116c-1.6108 0-3.1952-.581-4.0402-1.2147v2.5614c.6074.5017 2.1389 1.1355 4.4099 1.1355 3.3536 0 5.1228-1.5052 5.1228-4.1722 0-1.558-.977-2.6143-2.7198-2.9839 1.6371-.5282 2.3237-1.69 2.3237-3.1688 0-2.2445-1.7692-3.4856-4.6211-3.4856-2.0597 0-3.4064.6337-4.1722 1.109v2.5615c.845-.5546 2.0069-1.1883 3.7233-1.1883 1.1619 0 1.9013.5545 1.9013 1.5315 0 1.0299-.6338 1.5844-1.9277 1.5844h-1.9805v2.3766h1.9805c1.6108 0 2.2445.4753 2.2445 1.6372 0 1.0562-.7658 1.7164-2.2445 1.7164ZM41.5692 7.8473v13.2824h4.7795c3.0896 0 5.2813-1.5844 5.2813-4.7003 0-2.9575-1.9541-4.5155-5.2284-4.5155h-1.69V7.8473h-3.1424Zm11.2227 0v13.2824h3.1423V7.8473h-3.1423Zm-6.628 10.8002h-1.4523v-4.2514h1.5315c1.3467 0 2.1389.6073 2.1389 2.1389s-.8714 2.1125-2.2181 2.1125ZM66.3529 21.1297h3.5649l-5.0436-7.1561 4.4362-6.1263h-3.1687l-4.4363 6.1263V7.8473h-3.1423v13.2824h3.1423v-6.5224l4.6475 6.5224ZM80.6119 12.0723c0-3.2215-1.6372-4.4362-4.9644-4.4362-2.0861 0-3.7233.6602-4.6739 1.2147v2.6142c.845-.6337 2.6934-1.3203 4.3042-1.3203 1.5052 0 2.1917.5281 2.1917 1.9541v.7393h-.5017c-4.8059 0-6.9448 1.5844-6.9448 4.2778 0 2.6935 1.6372 4.1986 4.0665 4.1986 1.8485 0 2.6407-.6073 3.248-1.2411h.132c.0265.3433.1321.7922.2377 1.0563h3.0631a33.4388 33.4388 0 0 1-.1584-3.248v-5.8094Zm-3.1424 5.8886c-.396.581-1.1354 1.0563-2.2445 1.0563-1.3203 0-1.9805-.7922-1.9805-1.9805 0-1.5579 1.0827-2.1125 3.7761-2.1125h.4489v3.0367Z" fill="#fff"></path>
+                    </svg>
+                  </div>
+                  <h3 className={styles.yaPlusMusicHeader}>
+                    Полный доступ к Музыке
+                  </h3>
+                  <p className={styles.yaPlusMusicText}>
+                    Слушайте музыку на разных устройствах и скачивайте в дорогу в высоком качестве.
+                  </p>
+                </div>
+                <div className={styles.yaPlusWrap}>
+                  <div className={styles.yaPlusGo}>
+                    <div className={styles.yaPlusIcon}>
+                      <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className="YaPlusUnitsIcon_YaPlusUnitsIcon-Logo__v5HBI" data-tid="49491687">
+                        <g clip-path="url(#yataxilogo-clippath)">
+                          <path d="M24-.0005H0v12h24v-12Z" fill="url(#yataxilogo_linear1)"></path>
+                          <path d="M24 11.9995H12v12h12v-12Z" fill="url(#yataxilogo_linear2)"></path>
+                          <path d="M12 11.9995H0v12h12v-12Z" fill="url(#yataxilogo_radial1)"></path>
+                        </g>
+                        <defs>
+                          <linearGradient id="yataxilogo_linear1" x1="0" y1="-.0005" x2="17.6355" y2="38.6117" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FCE000"></stop>
+                            <stop offset=".4722" stop-color="#FAAA00"></stop>
+                            <stop offset="1" stop-color="#FCE000"></stop>
+                          </linearGradient>
+                          <linearGradient id="yataxilogo_linear2" x1="18.8382" y1="1.2329" x2="24.2644" y2="24.3321" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FEFEFE"></stop>
+                            <stop offset=".2705" stop-color="#F9F8F7"></stop>
+                            <stop offset="1" stop-color="#EAE3CF"></stop>
+                          </linearGradient>
+                          <radialGradient id="yataxilogo_radial1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(-87.02 26.4947 8.5947) scale(28.1952)">
+                            <stop offset=".4039" stop-color="#302F28"></stop>
+                            <stop offset=".5664" stop-color="#282724"></stop>
+                            <stop offset=".6887" stop-color="#272623"></stop>
+                            <stop offset=".8909" stop-color="#242321"></stop>
+                          </radialGradient>
+                          <clipPath id="yataxilogo-clippath">
+                            <rect width="24" height="24" rx="12" fill="#fff"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <svg width="81px" height="24px" viewBox="0 0 81 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className="YaPlusUnitsIcon-Label" data-tid="fe4e6447">
+                        <path d="M6.812 18.8511c-2.47 0-3.614-2.314-3.614-6.838 0-4.654 1.378-6.864 4.628-6.864 1.638 0 3.172.572 4.212 1.222V3.849c-.884-.65-2.496-1.144-4.368-1.144C2.704 2.705 0 6.241 0 12.013c0 5.928 2.47 9.282 6.734 9.282 4.134 0 6.318-2.652 6.318-7.228v-2.912H6.604v2.444h3.302v.546c0 2.886-.754 4.706-3.094 4.706ZM20.6255 7.697c-3.406 0-5.772 2.4181-5.772 6.8121 0 4.368 2.366 6.786 5.772 6.786s5.772-2.418 5.772-6.812c0-4.368-2.366-6.786-5.772-6.786Zm0 11.1541c-1.716 0-2.574-1.326-2.574-4.342 0-3.042.858-4.368 2.574-4.368 1.716 0 2.574 1.326 2.574 4.342 0 3.042-.858 4.368-2.574 4.368Z" fill="#fff"></path>
+                      </svg>
+                    </div>
+                    <h3 className={styles.yaPlusLogoHeader}>10% кешбэка баллами с поездок</h3>
+                    <p className={styles.yaPlusLogoText}>в классе «Комфорт», «Комфорт+» и Ultima в приложении</p>
+                  </div>
+                  <div className={styles.yaPlusDrive}>
+                    <div className={styles.yaPlusIcon}>
+                      <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className="YaPlusUnitsIcon_YaPlusUnitsIcon-Logo__v5HBI" data-tid="bb26d38f">
+                        <g clip-path="url(#yadrivelogo-clippath)">
+                          <rect width="24" height="24" rx="12" fill="#E3E3E3"></rect>
+                          <path fill="#E3E3E3" d="M0 0h24v24H0z"></path>
+                          <path d="M20.1991 8.8694c0-4.8197-2.0606-7.4798-5.29-8.8694H.0011v3.9098a12.657 12.657 0 0 1 4.0935-.6651c9.6489 0 9.6269 10.3114 2.9719 16.9664C5.3087 21.9689 3.589 23.1755 1.9818 24h8.6861c5.7137-3.4558 9.5312-9.2003 9.5312-15.1306Z" fill="url(#yadrivelogo-linear1)"></path>
+                          <path d="M4.0935 3.2447A12.656 12.656 0 0 0 0 3.91v20.0899h1.981c1.6072-.8243 3.3266-2.0311 5.0846-3.7889 6.6548-6.655 6.6768-16.9662-2.972-16.9662Z" fill="#161616"></path>
+                          <path d="M4.0935 3.2447A12.656 12.656 0 0 0 0 3.91v20.0899h1.981c1.6072-.8243 3.3266-2.0311 5.0846-3.7889 6.6548-6.655 6.6768-16.9662-2.972-16.9662Z" fill="url(#yadrivelogo-linear2)"></path>
+                        </g>
+                        <defs>
+                          <linearGradient id="yadrivelogo-linear1" x1="20.1991" y1="12.0002" x2=".0011" y2="12.0002" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#4040F9"></stop>
+                            <stop offset="1" stop-color="#0101F7"></stop>
+                          </linearGradient>
+                          <linearGradient id="yadrivelogo-linear2" x1="-2.4484" y1="14.8624" x2="12.2442" y2="10.9255" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#CADEF2" stop-opacity=".2"></stop>
+                            <stop offset=".0206" stop-color="#C3D6EA" stop-opacity=".1959"></stop>
+                            <stop offset=".167" stop-color="#96A4B2" stop-opacity=".1666"></stop>
+                            <stop offset=".3143" stop-color="#6F7982" stop-opacity=".1371"></stop>
+                            <stop offset=".4595" stop-color="#4F555B" stop-opacity=".1081"></stop>
+                            <stop offset=".602" stop-color="#36393D" stop-opacity=".0796"></stop>
+                            <stop offset=".7413" stop-color="#242627" stop-opacity=".0517"></stop>
+                            <stop offset=".8757" stop-color="#1A1A1A" stop-opacity=".0249"></stop>
+                            <stop offset="1" stop-color="#161616" stop-opacity="0"></stop>
+                          </linearGradient>
+                          <clipPath id="yadrivelogo-clippath">
+                            <rect width="24" height="24" rx="12" fill="none"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <svg width="81px" height="24px" viewBox="0 0 81 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className="YaPlusUnitsIcon-Label" data-tid="eb70d6ef">
+                        <path d="M2.984 24.0904v-3.8289h9.2158v3.8289h2.9839v-6.3111h-1.7164V1.9092H2.7728l-.2641 7.5522c-.132 4.357-.4753 6.9184-1.3203 8.3179H0v6.3111H2.984ZM5.3078 9.8839l.1848-5.4925h4.7795v13.3879H4.1987c.5545-1.2675.977-3.5384 1.109-7.8954ZM20.2102 6.9792h-2.9047v17.1112h3.1423v-5.3868c.7922 1.1882 1.9541 1.822 3.3008 1.822 3.0631 0 5.1756-2.4558 5.1756-6.9184 0-4.4363-2.0597-6.892-5.0172-6.892-1.4787 0-2.6934.6865-3.5384 1.9804l-.1584-1.7164Zm2.7462 11.0642c-1.6636 0-2.5086-1.3467-2.5086-4.4098 0-3.0896.8978-4.4363 2.667-4.4363 1.7165 0 2.5615 1.3467 2.5615 4.4099 0 3.0895-.8979 4.4362-2.7199 4.4362ZM40.8242 11.2042c0-3.2216-1.6372-4.4363-4.9644-4.4363-2.0861 0-3.7233.6602-4.6739 1.2147v2.6142c.845-.6337 2.6934-1.3203 4.3042-1.3203 1.5052 0 2.1917.5282 2.1917 1.9541v.7394h-.5017c-4.8059 0-6.9449 1.5843-6.9449 4.2778 0 2.6934 1.6372 4.1986 4.0666 4.1986 1.8484 0 2.6406-.6074 3.248-1.2411h.132c.0264.3433.132.7922.2377 1.0562h3.0631a33.4368 33.4368 0 0 1-.1584-3.2479v-5.8094Zm-3.1424 5.8886c-.3961.5809-1.1355 1.0562-2.2445 1.0562-1.3203 0-1.9805-.7922-1.9805-1.9804 0-1.558 1.0827-2.1125 3.7761-2.1125h.4489v3.0367ZM48.7112 5.2364c2.4822 0 3.7232-1.4788 3.7232-3.3272h-2.6406c0 .8714-.4225 1.3203-1.0826 1.3203-.713 0-1.1883-.4225-1.1883-1.3203h-2.6406c0 1.8748 1.2939 3.3272 3.8289 3.3272Zm-5.3605 1.7428v13.2823h2.7198l4.8588-8.2123v8.2123h3.0631V6.9792h-2.7198l-4.8588 8.2123V6.9792h-3.0631ZM61.8596 20.2615c3.116 0 4.9644-1.3203 4.9644-3.8553 0-1.7428-1.0562-2.7462-2.8255-3.0631 1.426-.3961 2.3238-1.3995 2.3238-2.9839 0-2.271-1.5052-3.38-4.4099-3.38h-5.2812v13.2823h5.2284Zm-.3961-10.9058c1.1355 0 1.7692.4754 1.7692 1.4788 0 .9242-.6865 1.4787-1.8748 1.4787h-1.5844V9.3557h1.69Zm.0528 5.2549c1.3468 0 2.0597.4753 2.0597 1.5844 0 1.2147-.7922 1.69-2.0597 1.69h-1.7428v-3.2744h1.7428Z" fill="#fff"></path>
+                      </svg>
+                    </div>
+                    <h3 className={styles.yaPlusLogoHeader}>10% кешбэка баллами на каршеринг</h3>
+                    <p className={styles.yaPlusLogoText}>за поездки по тарифу «Фикс»</p>
+                  </div>
+                </div>
+                <div className={styles.yaPlusMarket}>
+                  <div className={styles.yaPlusIcon}>
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className="YaPlusUnitsIcon_YaPlusUnitsIcon-Logo__v5HBI" data-tid="3b6179c7">
+                      <g clip-path="url(#yamarketlogo-clippath)">
+                        <path d="M0 0h24v24H0V0Z" fill="url(#yamarketlogo-linear)"></path>
+                        <path d="m0 20.7865 5.7288-6.8379-1.403 5.3548 4.3473 1.5749 6.4591-9.2073-1.4151 5.2652 3.5217 2.0379L24 12.2073V6.639l-4.7951 4.804 1.0641-6.0468-4.4331-1.6179-6.3754 9.0965.6347-4.1283-3.4736-2.0033L0 14.6388v6.1477Z" fill="#000"></path>
+                      </g>
+                      <defs>
+                        <linearGradient id="yamarketlogo-linear" x1="12" y1="-5.711" x2="12" y2="26.2782" gradientUnits="userSpaceOnUse">
+                          <stop stop-color="#FFE55B"></stop>
+                          <stop offset="1" stop-color="#FC0"></stop>
+                        </linearGradient>
+                        <clipPath id="yamarketlogo-clippath">
+                          <rect width="24" height="24" rx="12" fill="none"></rect>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <svg width="81px" height="24px" viewBox="0 0 81 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className="YaPlusUnitsIcon-Label" data-tid="f9111107">
+                      <path d="M6.364 21.2615h2.7462l3.7496-13.8633v13.8633h3.1424V2.9092h-4.2778L8.0275 16.5084 4.3306 2.9092H0v18.3523h2.6142V7.3982L6.364 21.2615ZM28.573 12.2042c0-3.2216-1.6372-4.4363-4.9644-4.4363-2.0861 0-3.7233.6602-4.6739 1.2147v2.6142c.845-.6337 2.6935-1.3203 4.3042-1.3203 1.5052 0 2.1918.5281 2.1918 1.9541v.7394h-.5018c-4.8059 0-6.9448 1.5843-6.9448 4.2778 0 2.6934 1.6372 4.1986 4.0666 4.1986 1.8484 0 2.6406-.6074 3.2479-1.2411h.1321c.0264.3433.132.7922.2376 1.0562h3.0631a33.4368 33.4368 0 0 1-.1584-3.2479v-5.8094Zm-3.1423 5.8886c-.3961.5809-1.1355 1.0562-2.2446 1.0562-1.3203 0-1.9804-.7922-1.9804-1.9804 0-1.558 1.0826-2.1125 3.7761-2.1125h.4489v3.0367ZM34.0042 7.9792h-2.9047v17.1112h3.1424v-5.3868c.7922 1.1882 1.9541 1.822 3.3008 1.822 3.0631 0 5.1756-2.4558 5.1756-6.9184 0-4.4363-2.0597-6.892-5.0172-6.892-1.4787 0-2.6934.6865-3.5384 1.9804l-.1585-1.7164Zm2.7463 11.0642c-1.6636 0-2.5086-1.3467-2.5086-4.4098 0-3.0896.8978-4.4363 2.667-4.4363 1.7164 0 2.5614 1.3467 2.5614 4.4099 0 3.0895-.8978 4.4362-2.7198 4.4362ZM52.6083 21.2615h3.5648l-5.0436-7.1561 4.4363-6.1262H52.397l-4.4362 6.1262V7.9792h-3.1424v13.2823h3.1424v-6.5223l4.6475 6.5223ZM66.7439 20.3637v-2.5614c-.9771.6602-2.6143 1.2411-4.1458 1.2411-2.2974 0-3.1688-1.0827-3.3008-3.3008h7.5786V14.079c0-4.621-2.0333-6.3639-5.1756-6.3639-3.8289 0-5.651 2.9311-5.651 6.9449 0 4.6211 2.271 6.8656 6.2847 6.8656 2.0069 0 3.4856-.5281 4.4099-1.1619Zm-5.0964-10.1664c1.5579 0 2.0332 1.2939 2.0332 2.9575v.2641h-4.3834c.0792-2.1125.845-3.2216 2.3502-3.2216ZM78.0546 10.4614V7.9792H67.5185v2.4822h3.6969v10.8001h3.1423V10.4614h3.6969Z" fill="#fff"></path>
+                    </svg>
+                  </div>
+                  <h3 className={styles.yaPlusLogoHeader}>До 3% кешбэка баллами</h3>
+                  <p className={styles.yaPlusLogoText}>за покупку товаров со специальной отметкой</p>
+                </div>
+              </div>
+              <div className={styles.yaPlusRight}>
+                <div className={styles.yaPlusAnimation}>
+                  <div className={styles.yaPlusPhone}>
+                    <img className={styles.yaPlusPhone} src="https://yastatic.net/s3/kinopoisk-frontend/hd-www/release/_next/static/media/phone@2x.8f2dc25f.png"/>
+                  </div>
+                  <div className={styles.yaPlusAirPodLeft}>
+                    <img className={styles.yaPlusAirPodLeft} src="https://yastatic.net/s3/kinopoisk-frontend/hd-www/release/_next/static/media/air-pods-left.59d26711.png"/>
+                  </div>
+                  <div className={styles.yaPlusAirPodRight}>
+                    <img className={styles.yaPlusAirPodRight} src="https://yastatic.net/s3/kinopoisk-frontend/hd-www/release/_next/static/media/air-pods-right.570635c9.png"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.buttonWrap}>
+              <button className={styles.button}>Попробовать бесплатно до конца года</button>
+            </div>
+          </div>
           <div className={styles.onBoardingDevices}>
             <div className={styles.sectionHeader}>
               <h2 className={styles.h2}>Смотрите кино дома и в дороге</h2>

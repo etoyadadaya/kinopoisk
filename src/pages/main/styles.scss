@@ -94,7 +94,7 @@
 }
 
 .buttonWrap {
-  padding-bottom: 50px;
+  padding: 50px 0;
   display: flex;
   justify-content: center;
 }
@@ -103,8 +103,8 @@
   cursor: pointer;
   pointer-events: all;
   border-radius: 12px;
-  padding: 0 4rem;
-  font-size: 1.1rem;
+  padding: 0 2rem;
+  font-size: 1rem;
   color: var(--white);
   height: 3.8rem;
   background: radial-gradient(96.72% 187.09% at 0% 100.29%,#ff5c00 5.21%,#ea507c 25.52%,#b941ef 48.44%,#5b61ff 70.83%,#21bee7 93.75%);;
@@ -135,7 +135,7 @@
 .devicesMobileRoot {
   display: flex;
   justify-content: space-between;
-  padding: 100px;
+  padding: 100px 100px 0 100px;
   width: 100%;
 }
 
@@ -598,12 +598,132 @@
 
 
 
+// YA PLUS ROOT
+
+.yaPlusRoot {
+  padding: 100px 0 100px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.yaPlusHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.yaPlusContent {
+  display: flex;
+  width: 100%;
+  padding: 100px;
+}
+
+.yaPlusMusic {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.yaPlusMusicHeader {
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+}
+
+.yaPlusMusicText {
+  font-size: 22px;
+  color: white;
+  opacity: 0.7;
+  font-weight: 300;
+}
+
+.yaPlusGo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.yaPlusDrive {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.yaPlusMarket {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.yaPlusIcon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 0 0 2rem;
+}
+
+.yaPlusLogoHeader {
+  color: white;
+  font-size: 24px;
+  line-height: 20px;
+}
+
+.yaPlusLogoText {
+  color: white;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.yaPlusWrap {
+  display: flex;
+  gap: 50px;
+}
+
+.yaPlusAnimation {
+  display: flex;
+}
+
+.yaPlusLeft {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  align-content: flex-start;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.yaPlusMusic {
+  width: 100%;
+}
+
+.yaPlusRight {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  align-content: flex-start;
+  justify-content: space-between;
+}
 
 
+.yaPlusPhone {
+  width: 650px;
+  height: 1000px;
+  position: absolute;
+  top: -75px;
+  left: 0;
+}
 
+.yaPlusAirPodLeft {
+  position: absolute;
+  top: 7rem;
+  left: 0;
+}
 
-
-
-
-
-
+.yaPlusAirPodRight {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
