@@ -134,7 +134,7 @@
 .devicesMobileRoot {
   display: flex;
   justify-content: space-between;
-  padding: 0 100px;
+  padding: 100px;
   width: 100%;
 }
 
@@ -199,3 +199,411 @@
   width: 640px;
   height: 480px;
 }
+
+
+
+// onBoardingDevices
+
+
+
+.onBoardingDevices {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 400;
+  align-items: center;
+  padding: 50px 0 64px;
+
+  & .textRootDevices {
+    font-size: 24px;
+    color: white;
+    opacity: 0.5;
+  }
+}
+
+.h2 {
+  color: white;
+  font-size: 48px;
+  line-height: 75px;
+}
+
+.onBoardingDevicesContent {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.devicesGridDisclaimer {
+  font-weight: 400;
+  display: flex;
+  font-size: 13px;
+  gap: 5px;
+  color: white;
+  opacity: 0.5;
+  padding-top: 10px;
+}
+
+.devicesGridTitle {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.onBoardingDevicesGrid {
+  display: grid;
+  min-width: 90rem;
+  margin: 0 0 1.6rem;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-gap: 1.6rem;
+  gap: 1.6rem;
+}
+
+.DevicesGridYandex {
+  grid-area: 1/1/3/3;
+  position: relative;
+  overflow: hidden;
+  padding: 2.4rem;
+  text-decoration: none;
+  border-radius: 1.6rem;
+  background-color: hsla(0,0%,47%,.1);
+  will-change: transform;
+  transition: background-color 300ms ease,transform 300ms ease;
+
+  &:hover {
+    background-color: white;
+    transform: scale(1.05);
+
+    & .DevicesLogo {
+      fill: #000;
+    }
+
+    & .V5VOOYandex {
+      stroke: #f60;
+    }
+
+    & .devicesGridTitle {
+      color: black;
+    }
+
+    & .devicesGridDisclaimer {
+      color: black;
+    }
+  }
+
+  & .V5VOOYandex {
+      position: absolute;
+      z-index: -1;
+      stroke: #777;
+      transition: stroke 300ms ease, fill 300ms ease;
+      bottom: -15rem;
+      left: -4rem;
+      width: 150%;
+      height: 150%;
+      overflow: hidden;
+  }
+}
+
+.DevicesGridSamsung {
+  grid-area: 1/3/2/5;
+  position: relative;
+  overflow: hidden;
+  padding: 2.4rem;
+  text-decoration: none;
+  border-radius: 1.6rem;
+  background-color: hsla(0,0%,47%,.1);
+  will-change: transform;
+  transition: background-color 300ms ease,transform 300ms ease;
+
+  &:hover {
+    background-color: white;
+    transform: scale(1.05);
+
+    & .DevicesLogo {
+      fill: #000;
+    }
+
+    & .V5VOOSamsung:hover {
+      stroke: #f60;
+    }
+
+    & .devicesGridTitle {
+      color: black;
+    }
+
+    & .devicesGridDisclaimer {
+      color: black;
+    }
+  }
+
+  & .V5VOOSamsung {
+      position: absolute;
+      z-index: -1;
+      stroke: #777;
+      right: -12rem;
+      transition: stroke 300ms ease, fill 300ms ease;
+      bottom: -16rem;
+      overflow: hidden;
+  }
+}
+
+.DevicesGridLG {
+  grid-area: 2/3/3/5;
+  position: relative;
+  overflow: hidden;
+  padding: 2.4rem;
+  text-decoration: none;
+  border-radius: 1.6rem;
+  background-color: hsla(0,0%,47%,.1);
+  will-change: transform;
+  transition: background-color 300ms ease,transform 300ms ease;
+
+  &:hover {
+    background-color: white;
+    transform: scale(1.05);
+
+    & .DevicesLogo {
+      fill: #000;
+    }
+
+    & .V5VOOLG:hover {
+      stroke: #f60;
+    }
+
+    & .devicesGridTitle {
+      color: black;
+    }
+
+    & .devicesGridDisclaimer {
+      color: black;
+    }
+  }
+
+  & .V5VOOLG {
+      position: absolute;
+      z-index: -1;
+      stroke: #777;
+      transition: stroke 300ms ease, fill 300ms ease;
+      top: -14rem;
+      right: -12rem;
+      overflow: hidden;
+  }
+}
+
+.DevicesGridAndroid {
+  position: relative;
+  overflow: hidden;
+  padding: 2.4rem;
+  text-decoration: none;
+  border-radius: 1.6rem;
+  background-color: hsla(0,0%,47%,.1);
+  will-change: transform;
+  display: flex;
+  flex-direction: column;
+  grid-area: 1/5/2/7;
+  justify-content: space-between;
+  transition: background-color 300ms ease,transform 300ms ease;
+
+  &:hover {
+    background-color: white;
+    transform: scale(1.05);
+
+    & .DevicesLogo {
+      fill: #000;
+    }
+
+    & .V5VOOAndroid:hover {
+      stroke: #f60;
+    }
+
+    & .devicesGridTitle {
+      color: black;
+    }
+
+    & .devicesGridDisclaimer {
+      color: black;
+    }
+  }
+
+  & .V5VOOAndroid {
+      position: absolute;
+      z-index: -1;
+      stroke: #777;
+      bottom: 0;
+      transition: stroke 300ms ease, fill 300ms ease;
+      align-self: center;
+      transform: translateX(4%);
+      overflow: hidden;
+  }
+}
+
+.DevicesGridXiaomi {
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  border-radius: 1.6rem;
+  background-color: hsla(0,0%,47%,.1);
+  will-change: transform;
+  transition: background-color 300ms ease,transform 300ms ease;
+  display: flex;
+  padding: 0;
+  grid-area: 2/5/3/6;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: white;
+    transform: scale(1.05);
+
+    & .DevicesLogo {
+      fill: #000;
+    }
+
+    & .V5VOOXiaomi:hover {
+      stroke: #f60;
+    }
+  }
+
+  & .V5VOOXiaomi {
+    position: absolute;
+    z-index: -1;
+    stroke: #777;
+    top: 0;
+    transition: stroke 300ms ease, fill 300ms ease;
+    right: 0;
+    overflow: hidden;
+  }
+}
+
+.DevicesGridSony {
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  border-radius: 1.6rem;
+  background-color: hsla(0,0%,47%,.1);
+  will-change: transform;
+  transition: background-color 300ms ease,transform 300ms ease;
+  display: flex;
+  padding: 0;
+  grid-area: 2/6/3/7;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: white;
+    transform: scale(1.05);
+
+    & .DevicesLogo {
+      fill: #000;
+    }
+
+    & .V5VOOSony:hover {
+      stroke: #ff6600;
+    }
+  }
+
+  & .V5VOOSony {
+      position: absolute;
+      z-index: -1;
+      stroke: #777;
+      top: 0;
+      transition: stroke 300ms ease, fill 300ms ease;
+      left: 0;
+      overflow: hidden;
+  }
+}
+
+.DevicesGridApple {
+  position: relative;
+  overflow: hidden;
+  padding: 2.4rem;
+  text-decoration: none;
+  border-radius: 1.6rem;
+  background-color: hsla(0,0%,47%,.1);
+  will-change: transform;
+  display: block;
+  transition: background-color 300ms ease,transform 300ms ease;
+  grid-area: 1/7/2/9;
+
+  &:hover {
+    background-color: white;
+    transform: scale(1.05);
+
+    & .DevicesLogo {
+      fill: #000;
+    }
+
+    & .V5VOOApple:hover {
+      stroke: #f60;
+    }
+  }
+
+  & .V5VOOApple {
+      position: absolute;
+      z-index: -1;
+      stroke: #777;
+      transition: stroke var(--transition-parameters),fill var(--transition-parameters);
+      top: 1rem;
+      right: 0;
+      overflow: hidden;
+  }
+}
+
+.DevicesGridAll {
+  position: relative;
+  overflow: hidden;
+  padding: 2.4rem;
+  text-decoration: none;
+  border-radius: 1.6rem;
+  background-color: hsla(0,0%,47%,.1);
+  will-change: transform;
+  display: flex;
+  transition: background-color 300ms ease,transform 300ms ease;
+  flex-direction: column;
+  text-align: center;
+  grid-area: 2/7/3/9;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: white;
+    transform: scale(1.05);
+
+    & .DevicesLogo {
+      fill: #000;
+    }
+
+    & .devicesGridTitle {
+      color: black;
+    }
+
+    & .devicesGridDisclaimer {
+      color: black;
+    }
+  }
+}
+
+.DevicesLogo:hover {
+    fill: #000;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
