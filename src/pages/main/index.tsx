@@ -308,10 +308,13 @@ const Main: FC = () => {
                 </div>
               </div>
               </div>
-            <div className={styles.devicesMobileRight}>
-              <img className={styles.devicesMobileImg} src="https://yastatic.net/s3/kinopoisk-frontend/hd-www/release/_next/static/media/devices-tablet.f5c84d3e.png" alt=""/>
+              <div className={styles.devicesMobileRight}>
+                <img className={styles.devicesMobileImg} src="https://yastatic.net/s3/kinopoisk-frontend/hd-www/release/_next/static/media/devices-tablet.f5c84d3e.png" alt=""/>
+              </div>
             </div>
-            </div>
+          <div className={styles.buttonWrap}>
+            <button className={styles.button}>Попробовать бесплатно до конца года</button>
+          </div>
           <Footer/>
         </>
     );

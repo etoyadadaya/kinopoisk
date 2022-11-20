@@ -94,6 +94,7 @@
 }
 
 .buttonWrap {
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -103,9 +104,9 @@
   pointer-events: all;
   border-radius: 12px;
   padding: 0 4rem;
-  font-size: 1.6rem;
+  font-size: 1.1rem;
   color: var(--white);
-  height: 5.2rem;
+  height: 3.8rem;
   background: radial-gradient(96.72% 187.09% at 0% 100.29%,#ff5c00 5.21%,#ea507c 25.52%,#b941ef 48.44%,#5b61ff 70.83%,#21bee7 93.75%);;
   transform: scale(1);
   transition: scale 200ms ease;
@@ -260,7 +261,6 @@
 
 .onBoardingDevicesGrid {
   display: grid;
-  min-width: 90rem;
   margin: 0 0 1.6rem;
   grid-template-columns: repeat(8,1fr);
   grid-template-rows: repeat(2,1fr);
