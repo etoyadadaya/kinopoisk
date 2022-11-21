@@ -1,0 +1,53 @@
+.carouselRoot {
+  padding: 25px 100px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.carouselLink {
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  text-decoration: none;
+
+  & .carouselSvg {
+    opacity: 0;
+    fill: white;
+    transition: opacity .3s;
+  }
+
+  &:hover {
+    & .carouselSvg {
+      opacity: 0.5;
+    }
+  }
+}
+
+.headerTitle {
+  font-size: 22px;
+  color: white;
+}
+
+.carouselContainer {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.carouselContainerScroll {
+  display: flex;
+  //overflow-x: auto;
+  gap: 15px;
+  padding: 20px 0;
+  list-style: none;
+}
+
+.carouselItem {
+  border-radius: 12px;
+  height: 270px;
+  width: 180px;
+  background: white;
+  background-size: 100% 100%;
+}

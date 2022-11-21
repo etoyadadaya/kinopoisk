@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .wrapper {
   min-height: 105vh;
   width: 100%;
@@ -197,6 +201,7 @@
 }
 
 .devicesMobileImg {
+  pointer-events: none;
   width: 640px;
   height: 480px;
 }
@@ -709,6 +714,7 @@
 
 
 .yaPlusPhone {
+  pointer-events: none;
   width: 650px;
   height: 1000px;
   position: absolute;
@@ -717,12 +723,14 @@
 }
 
 .yaPlusAirPodLeft {
+  pointer-events: none;
   position: absolute;
   top: 7rem;
   left: 0;
 }
 
 .yaPlusAirPodRight {
+  pointer-events: none;
   position: absolute;
   top: 1rem;
   right: 2rem;
