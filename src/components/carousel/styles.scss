@@ -52,8 +52,8 @@
 
 .carouselItem {
   border-radius: 12px;
-  height: 36vh;
-  width: 12vw;
+  min-height: 36vh;
+  min-width: 12vw;
   background: white;
   background-size: 100% 100%;
 }

@@ -14,7 +14,7 @@ body {
   opacity: 0.3;
   height: 100vh;
   position: absolute;
-  top: -5rem;
+  top: -6rem;
   right: 0;
   bottom: 0;
   left: -34rem;
@@ -24,9 +24,9 @@ body {
 .filmsCoverRow {
   display: flex;
   gap: 1.6rem;
-  height: 13.2rem;
+  height: 20vh;
   margin: 0 1.6rem 1.6rem 0;
-  transform: translate3d(17rem, 0, 0) rotate(1deg);
+  transform: translate3d(17rem, 0, 0) rotate(2deg);
   z-index: 1;
 
   & .filmsCoverPoster {
@@ -707,7 +707,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 50%;
+  width: 40%;
   align-content: flex-start;
   justify-content: space-between;
 }
@@ -733,5 +733,5 @@ body {
   pointer-events: none;
   position: absolute;
   top: 1rem;
-  right: 2rem;
+  left: 15rem;
 }
