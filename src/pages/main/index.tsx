@@ -101,10 +101,10 @@ const Main: FC = () => {
           </div>
         </div>
         <Carousel movies={useGetMovies("films/top?type=TOP_250_BEST_FILMS&page=1")} title={"TOP 250: 1"}/>
-        {/*<Carousel movies={useGetMovies("films/top?type=TOP_250_BEST_FILMS&page=2")} title={"TOP 250: 2"}/>*/}
-        {/*<Carousel movies={useGetMovies("films/top?type=TOP_250_BEST_FILMS&page=3")} title={"TOP 250: 3"}/>*/}
-        {/*<Carousel movies={useGetMovies("films/top?type=TOP_250_BEST_FILMS&page=4")} title={"TOP 250: 4"}/>*/}
-        {/*<Carousel movies={useGetMovies("films/top?type=TOP_250_BEST_FILMS&page=5")} title={"TOP 250: 5"}/>*/}
+        <Carousel movies={useGetMovies("films/top?type=TOP_250_BEST_FILMS&page=2")} title={"TOP 250: 2"}/>
+        <Carousel movies={useGetMovies("films/top?type=TOP_250_BEST_FILMS&page=3")} title={"TOP 250: 3"}/>
+        <Carousel movies={useGetMovies("films/top?type=TOP_250_BEST_FILMS&page=4")} title={"TOP 250: 4"}/>
+        <Carousel movies={useGetMovies("films/top?type=TOP_250_BEST_FILMS&page=5")} title={"TOP 250: 5"}/>
         <div className={styles.yaPlusRoot}>
           <div className={styles.yaPlusHeader}>
             <h2 className={styles.h2}>Плюс к этому</h2>
