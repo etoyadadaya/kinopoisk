@@ -34,6 +34,7 @@
   display: flex;
   flex: 1 0 auto;
   padding-left: 50px;
+  width: 100%;
 }
 
 .carouselContainerScroll {
@@ -47,8 +48,8 @@
 
 .carouselItem {
   border-radius: 12px;
-  height: 270px;
-  width: 180px;
+  height: 36vh;
+  width: 12vw;
   background: white;
   background-size: 100% 100%;
 }
@@ -56,15 +57,14 @@
 .leftHandle {
   border: none;
   display: flex;
-  border-radius: 12px;
   justify-content: center;
   align-items: center;
   position: absolute;
   left: 0;
   margin-top: 20px;
   z-index: 10;
-  width: 50px;
-  height: 270px;
+  width: 3vw;
+  height: 36vh;
   background-color: rgba(0,0,0, 0.25);
   cursor: pointer;
   transition: background-color .3s;
@@ -76,15 +76,14 @@
 
 .rightHandle {
   border: none;
-  border-radius: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
   margin-top: 20px;
   z-index: 10;
-  width: 75px;
-  height: 270px;
+  width: 3vw;
+  height: 36vh;
   right: 0;
   background-color: rgba(0,0,0, 0.25);
   cursor: pointer;

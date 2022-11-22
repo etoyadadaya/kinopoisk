@@ -13,15 +13,15 @@ const Carousel: FC<ICarouselProps> = ({movies, title}) => {
 	const [transform, setTransform] = useState(0);
 
 	const slideRight = () => {
-		if (transform < 65) {
-			setTransform(transform + 5);
+		if (transform <= 60) {
+			setTransform(transform + 20);
 			console.log(transform);
 		}
 	}
 
 	const slideLeft = () => {
 		if (transform > 0) {
-			setTransform(transform - 5);
+			setTransform(transform - 20);
 			console.log(transform);
 		}
 	}
@@ -41,7 +41,7 @@ const Carousel: FC<ICarouselProps> = ({movies, title}) => {
 						<button onClick={slideLeft} className={styles.leftHandle}>
 							<svg width="17" height="36" viewBox="0 0 17 36" fill="none" xmlns="http://www.w3.org/2000/svg" data-tid="ca33cd8c"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.5001 17.9998L16.6001 3.1998L13.4001 0.799805L0.500097 17.9998L13.4001 35.1998L16.6001 32.7998L5.5001 17.9998Z" fill="white"></path></svg>
 						</button>
-						<ul style={{transform: `translate(-${transform}%)`}} className={styles.carouselContainerScroll}>
+						<ul style={{transform: `translate(-${transform}%)`, transition: `transform .3s`}} className={styles.carouselContainerScroll}>
 							{movies.map((movie, key) =>
 								<li key={key} style={{backgroundImage: `url(${movie.posterUrlPreview})`}} className={styles.carouselItem}></li>
 							)}
