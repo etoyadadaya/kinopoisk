@@ -4,11 +4,11 @@ import Header from "../../components/header";
 import styles from "./styles.scss";
 
 const Tv: FC = () => {
-	return (
-			<>
-				<Header/>
-			</>
-	);
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default Tv;

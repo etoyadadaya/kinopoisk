@@ -1,0 +1,43 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: #D6000F;
+  border-radius: 3px;
+  color: white;
+  width: 125px;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: 100;
+}
+
+.main {
+  cursor: pointer;
+  pointer-events: all;
+  border-radius: 12px;
+  padding: 0 2rem;
+  font-size: 1rem;
+  color: var(--white);
+  height: 3.8rem;
+  background: radial-gradient(96.72% 187.09% at 0% 100.29%,#ff5c00 5.21%,#ea507c 25.52%,#b941ef 48.44%,#5b61ff 70.83%,#21bee7 93.75%);;
+  transform: scale(1);
+  transition: scale 200ms ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.secondary {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer ;
+  opacity: 1;
+  transition: opacity .3s;
+}

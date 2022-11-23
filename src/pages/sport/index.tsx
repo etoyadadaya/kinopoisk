@@ -4,11 +4,11 @@ import Header from "../../components/header";
 import styles from "./styles.scss";
 
 const Sport: FC = () => {
-	return (
-			<>
-				<Header/>
-			</>
-	);
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default Sport;

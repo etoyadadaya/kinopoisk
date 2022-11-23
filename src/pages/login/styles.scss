@@ -1,0 +1,36 @@
+.registrationRoot {
+  background-image: url("../../common/images/registerbg.jpg");
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registrationWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 25px 25px;
+  border-radius: 12px;
+  width: 25%;
+  height: 60%;
+  background-color: #131317;
+}
+
+.button {
+  cursor: pointer;
+  pointer-events: all;
+  border-radius: 12px;
+  padding: 0 2rem;
+  font-size: 1rem;
+  color: var(--white);
+  height: 3.8rem;
+  transform: scale(1);
+  transition: scale 200ms ease;
+  background-color: #1f1f1f;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
